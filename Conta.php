@@ -98,6 +98,7 @@
 
             else {
                 $this->setStatus(false);
+                echo "Conta fechada com sucesso";
             }
 
         }

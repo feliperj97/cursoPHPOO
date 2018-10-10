@@ -18,6 +18,7 @@
         $p1->depositar(300);//depositou 300 reais
         $p1->getSaldo();
         $p1->pagarMensal();
+        $p1->fecharConta();
 
         $p2->abrirConta("CP");
         $p2->setDono("Creuza");
@@ -26,6 +27,7 @@
         $p2->sacar(100);//sacou 100
         $p2->getSaldo();
         $p2->pagarMensal();
+        $p2->fecharConta();
 
         echo "<pre>";
         print_r($p1);
